@@ -19,10 +19,6 @@
       <stop offset="0%" stop-color="#1c2942"/>
       <stop offset="100%" stop-color="#101a2e"/>
     </linearGradient>
-    <mask id="crescentMask">
-      <rect x="0" y="0" width="1100" height="320" fill="#ffffff"/>
-      <circle cx="991" cy="51" r="24" fill="#000000"/>
-    </mask>
   </defs>
 
   <!-- Sky background -->
@@ -53,10 +49,10 @@
     </circle>
   </g>
 
-  <!-- Moon (crescent revealed via mask so the animated sky shows through) -->
-  <circle cx="1000" cy="58" r="26" fill="#ffe9a8" opacity="0.95" mask="url(#crescentMask)">
-    <animate attributeName="r" values="26;27.5;26" dur="6s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Crescent moon (drawn as an evenodd path so no mask/clipPath is needed) -->
+  <path d="M 1000 32 A 26 26 0 1 0 1000 84 A 26 26 0 1 0 1000 32 Z M 990 28 A 21 21 0 1 0 990 70 A 21 21 0 1 0 990 28 Z" fill-rule="evenodd" fill="#ffe9a8" opacity="0.95">
+    <animate attributeName="opacity" values="0.95;0.75;0.95" dur="6s" repeatCount="indefinite"/>
+  </path>
 
   <!-- Aircraft flying across the top -->
   <g>
