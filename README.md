@@ -23,12 +23,13 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 **Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom rate engines, three-way matching, AI-assisted audit, e-invoicing, and open logistics data processing — ideal for shippers, 3PLs, freight brokers, researchers, and developers building transparent transportation finance solutions.
 🙌 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 ## 📋 Table of Contents
-- [🏢 SaaS/Hosted Platforms](#🏢-saashosted-platforms)
-- [🧑‍💻 Open-Source GitHub Projects](#🧑‍💻-open-source-github-projects)
-- [🔎 Related Topics](#🔎-related-topics)
-- [🤝 How to Contribute](#🤝-how-to-contribute)
-- [⚠️ Disclaimer](#⚠️-disclaimer)
+- [🏢 SaaS/Hosted Platforms](#saas-platforms)
+- [🧑‍💻 Open-Source GitHub Projects](#open-source-projects)
+- [🔎 Related Topics](#related-topics)
+- [🤝 How to Contribute](#how-to-contribute)
+- [⚠️ Disclaimer](#disclaimer)
 - [⭐ Star History](#star-history)
+<a name="saas-platforms"></a>
 ## 🏢 SaaS/Hosted Platforms
 
 | 🏢 Platform | 🎯 Focus | 📈 Company size (revenue / valuation) | 💰 Pricing (starting tier) | 🆓 Free tier / trial limits |
@@ -45,6 +46,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 | [**⚙️ RateLinx**](https://www.ratelinx.com) | Automated freight audit & pay; real-time invoice-to-shipment matching, GL coding, multi-modal analytics | **n/d** — private; no public revenue or valuation (Scottsdale, AZ) | **Fixed monthly subscription + minimal one-time implementation fee** ($0 professional-service fees; custom quote) | No free tier or trial offered — quote-based |
 
 > **Notes:** Rows are sorted by company size (descending), using the midpoint of each published estimate (valuation or acquisition value where available, otherwise funding or estimated revenue; `~` = estimate). Enterprise FAP providers price per invoice/transaction and rarely publish rate cards; figures above are the most specific published estimates as of August 2026 (sources: SEC filings, press releases, PayCargo Help Center, RateLinx pricing page, CT Logistics SaaS page, ZoomInfo/Growjo/Latka/Owler, industry FAP benchmarks).
+<a name="open-source-projects"></a>
 ## 🧑‍💻 Open-Source GitHub Projects
 ⭐ *Sorted by GitHub stars (descending) — click a star badge to open that repo's stargazers page.*
 
@@ -93,16 +95,19 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - 🧾 **Invoice OCR + LLM pipelines** (many community notebooks and small repos) for extracting line-item charges from carrier PDFs.
 - 📈 **InfluxDB + Grafana + Node-RED** stacks frequently combined with TMS data for spend dashboards and anomaly detection.
 🧩 **Frameworks for building custom systems**: Combine **Open TMS / LoadPartner TMS**, **Mustangproject** (e-invoicing), **FreightAudit-style AI detectors**, **three-way match engines**, and **InfluxDB + Grafana** (or similar) with local LLMs for intelligent, self-hosted freight audit and payment platforms.
+<a name="related-topics"></a>
 ## 🔎 Related Topics
 
 `freight audit` · `freight-audit-payment` · `freight-invoice-auditing` · `carrier-payment` · `transportation-spend-management` · `overcharge-recovery` · `rate-compliance` · `tms` · `truckload` · `ltl` · `parcel-audit` · `ocean-freight` · `air-freight` · `edi-210` · `edi-810` · `edi-820` · `e-invoicing` · `zugferd` · `supply-chain` · `logistics` · `open-source`
 
+<a name="how-to-contribute"></a>
 ## 🤝 How to Contribute
 1. 🍴 Fork the repo.
 2. ✏️ Add/edit entries in `README.md` (follow existing format).
 3. 🏷️ Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
 4. 🚀 Submit PR with a short explanation.
 ⭐ Star the repo if you find it useful!
+<a name="disclaimer"></a>
 ## ⚠️ Disclaimer
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - Freight audit and payment tools must comply with applicable financial, tax, and transportation regulations.
@@ -111,6 +116,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 🚢 **Made for shippers, freight brokers, 3PLs, finance teams, and logistics technologists.**
 💪 Let's make freight audit and payment more open, accurate, and cost-effective.
 
+<a name="star-history"></a>
 ##  Star History
 <div align="center">
    <a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Freight-Audit-Payment&type=date&legend=bottom-right">
