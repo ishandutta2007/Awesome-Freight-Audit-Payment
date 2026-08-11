@@ -34,18 +34,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 - [**Mustangproject**](https://github.com/ZUGFeRD/mustangproject) [![Stars](https://img.shields.io/github/stars/ZUGFeRD/mustangproject?style=social&label=Stars&color=white)](https://github.com/ZUGFeRD/mustangproject/stargazers)
   Mature open-source Java library and toolkit for reading, writing, validating, and converting structured electronic invoices (ZUGFeRD/Factur-X, XRechnung, CII, UBL) — essential for automated freight e-invoice processing.
+- [**Cargo Management (ERPNext)**](https://github.com/AgileShift/cargo_management) [![Stars](https://img.shields.io/github/stars/AgileShift/cargo_management?style=social&label=Stars&color=white)](https://github.com/AgileShift/cargo_management/stargazers)
+  Fully-fledged ERPNext solution for freight forwarding companies — shipments, containers, forwarding operations, and built-in invoicing on a proven open-source ERP core.
+- [**OpenLMIS**](https://github.com/OpenLMIS/open-lmis) [![Stars](https://img.shields.io/github/stars/OpenLMIS/open-lmis?style=social&label=Stars&color=white)](https://github.com/OpenLMIS/open-lmis/stargazers)
+  Open Logistics Management Information System — shared open-source logistics platform for managing commodity distribution; a reference architecture for open logistics data processing.
+- [**Django Transportation Management System**](https://github.com/Pzqqt/Django_Transportation_Management_System) [![Stars](https://img.shields.io/github/stars/Pzqqt/Django_Transportation_Management_System?style=social&label=Stars&color=white)](https://github.com/Pzqqt/Django_Transportation_Management_System/stargazers)
+  Django-based Transportation Management System (物流管理系统) covering load, dispatch, and freight operations on a clean Python web stack.
 - [**LoadPartner TMS**](https://github.com/loadpartner/tms) [![Stars](https://img.shields.io/github/stars/loadpartner/tms?style=social&label=Stars&color=white)](https://github.com/loadpartner/tms/stargazers)
   Open-source TMS built for freight brokers (Laravel + React) covering load management, dispatch, and operational workflows that integrate with audit and payment processes.
 - [**Open TMS**](https://github.com/fossabot/open-tms) [![Stars](https://img.shields.io/github/stars/fossabot/open-tms?style=social&label=Stars&color=white)](https://github.com/fossabot/open-tms/stargazers)
   Full open-source Transportation Management System (opentms.co.uk) with three-way freight audit, carrier invoice matching, LTL rating, EDI 210/810/820 support, AR/AP lifecycle, and financial reporting.
+- [**ATLAS (Cargofy)**](https://github.com/cargofy/ATLAS) [![Stars](https://img.shields.io/github/stars/cargofy/ATLAS?style=social&label=Stars&color=white)](https://github.com/cargofy/ATLAS/stargazers)
+  Universal MCP server for logistics — connect any TMS/WMS to AI agents for shipments, carriers, tenders, and tracking via the Model Context Protocol.
 - [**OpenHaul**](https://github.com/johnmonarch/OpenHaul) [![Stars](https://img.shields.io/github/stars/johnmonarch/OpenHaul?style=social&label=Stars&color=white)](https://github.com/johnmonarch/OpenHaul/stargazers)
   Local-first open-source carrier verification and risk-scoring tool for brokers and shippers using public FMCSA data and packet checks.
 - [**SmartAudit-LLM**](https://github.com/Sourish-Kanna/SmartAudit-LLM) [![Stars](https://img.shields.io/github/stars/Sourish-Kanna/SmartAudit-LLM?style=social&label=Stars&color=white)](https://github.com/Sourish-Kanna/SmartAudit-LLM/stargazers)
   Autonomous LLM-based auditing platform for financial documents (invoices in CSV/PDF) performing rule-based and reasoning validation.
+- [**Freight Audit Intelligence (Tetrixx-SG)**](https://github.com/Tetrixx-SG/freight-audit-intelligence) [![Stars](https://img.shields.io/github/stars/Tetrixx-SG/freight-audit-intelligence?style=social&label=Stars&color=white)](https://github.com/Tetrixx-SG/freight-audit-intelligence/stargazers)
+  AI-native freight audit and transport spend intelligence — methodology, use cases, and competitive landscape for enterprise logistics teams.
 - [**Operational Cost Audit**](https://github.com/ajmarsillo/operational-cost-audit) [![Stars](https://img.shields.io/github/stars/ajmarsillo/operational-cost-audit?style=social&label=Stars&color=white)](https://github.com/ajmarsillo/operational-cost-audit/stargazers)
   SQL + Python analytics platform for detecting operational cost leakage, overbilling against contracts, and post-termination charges in vendor invoice data.
 - [**Vendor Invoice Intelligence System**](https://github.com/manish930s/Vendor-Invoice-Intelligence-System) [![Stars](https://img.shields.io/github/stars/manish930s/Vendor-Invoice-Intelligence-System?style=social&label=Stars&color=white)](https://github.com/manish930s/Vendor-Invoice-Intelligence-System/stargazers)
   ML-driven system that predicts expected freight costs and flags high-risk anomalous invoices for manual review.
+- [**Logistic Audit Agent**](https://github.com/Gravqc/Logistic-Audit-Agent) [![Stars](https://img.shields.io/github/stars/Gravqc/Logistic-Audit-Agent?style=social&label=Stars&color=white)](https://github.com/Gravqc/Logistic-Audit-Agent/stargazers)
+  Freight bill processing agent (FastAPI + LangGraph + PostgreSQL + Neo4j) that validates carrier invoices against contracted rates, auto-approves clean bills, and pauses for human review.
+- [**Freight Invoice Audit Dashboard**](https://github.com/Mohaby/freight-invoice-audit) [![Stars](https://img.shields.io/github/stars/Mohaby/freight-invoice-audit?style=social&label=Stars&color=white)](https://github.com/Mohaby/freight-invoice-audit/stargazers)
+  Freight Invoice Audit Dashboard built with Flask + SQLAlchemy + Chart.js for invoice review and audit workflows.
+- [**edi801 (am-kantox)**](https://github.com/am-kantox/edi801) [![Stars](https://img.shields.io/github/stars/am-kantox/edi801?style=social&label=Stars&color=white)](https://github.com/am-kantox/edi801/stargazers)
+  Zero-dependency Ruby library for parsing, generating, and validating ANSI X12 EDI 810 invoice transaction sets — ideal for automated freight e-invoice pipelines.
 - [**S2P AI Audit**](https://github.com/aswinakofficial/s2p-ai-audit) [![Stars](https://img.shields.io/github/stars/aswinakofficial/s2p-ai-audit?style=social&label=Stars&color=white)](https://github.com/aswinakofficial/s2p-ai-audit/stargazers)
   Production-grade AI-powered three-way match engine (invoice vs PO vs goods receipt) using LLM document understanding combined with deterministic financial validation.
 - [**Warp Tools**](https://github.com/wearewarp/warp-tools) [![Stars](https://img.shields.io/github/stars/wearewarp/warp-tools?style=social&label=Stars&color=white)](https://github.com/wearewarp/warp-tools/stargazers)
