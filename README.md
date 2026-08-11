@@ -1,3 +1,9 @@
+<!--
+  SEO meta information
+  Title: Awesome Freight Audit & Payment — Curated SaaS Platforms & Open-Source Tools
+  Description: A curated list of freight audit and payment (FAP) platforms and open-source projects for freight invoice auditing, carrier payment, transportation spend management, overcharge recovery, rate compliance, and transportation cost control across truckload, LTL, parcel, ocean, air, and rail.
+  Keywords: freight audit, freight audit and payment, FAP, freight invoice auditing, carrier payment, transportation spend management, TMS, truckload, LTL, parcel audit, overcharge recovery, rate compliance, logistics, supply chain, open source, EDI 210, EDI 810, e-invoicing, freight bill audit
+-->
 # 🚚 Awesome-Freight-Audit-Payment 💸
 
 <p align="center">
@@ -8,7 +14,7 @@
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Freight Invoice Auditing, Carrier Payment, Spend Visibility & Transportation Cost Control*
 🗓️ **Last updated: August 2026**
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Freight Audit & Payment**. These tools audit carrier invoices against contracted rates, detect overcharges and duplicates, automate payments, allocate costs, and deliver actionable spend intelligence across all modes (truckload, LTL, parcel, ocean, air, rail).
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Freight Audit & Payment (FAP)**. These tools audit carrier invoices against contracted rates, detect overcharges and duplicates, automate payments, allocate costs, and deliver actionable transportation spend intelligence across all modes (truckload, LTL, parcel, ocean, air, rail). Whether you need freight invoice auditing, carrier payment automation, rate compliance, overcharge recovery, or full transportation spend management, this list is a practical starting point for shippers, freight brokers, 3PLs, finance teams, and logistics technologists.
 📌 **Examples** include Cass Information Systems, Trax Technologies, CT Logistics, nVision Global, ControlPay, PayCargo, Audintel, RateLinx, Green Mountain Technology, Data2Logistics (the category leaders).
 **Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom rate engines, three-way matching, AI-assisted audit, e-invoicing, and open logistics data processing — ideal for shippers, 3PLs, freight brokers, researchers, and developers building transparent transportation finance solutions.
 🙌 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
@@ -81,6 +87,10 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - 🧾 **Invoice OCR + LLM pipelines** (many community notebooks and small repos) for extracting line-item charges from carrier PDFs.
 - 📈 **InfluxDB + Grafana + Node-RED** stacks frequently combined with TMS data for spend dashboards and anomaly detection.
 🧩 **Frameworks for building custom systems**: Combine **Open TMS / LoadPartner TMS**, **Mustangproject** (e-invoicing), **FreightAudit-style AI detectors**, **three-way match engines**, and **InfluxDB + Grafana** (or similar) with local LLMs for intelligent, self-hosted freight audit and payment platforms.
+## 🔎 Related Topics
+
+`freight audit` · `freight-audit-payment` · `freight-invoice-auditing` · `carrier-payment` · `transportation-spend-management` · `overcharge-recovery` · `rate-compliance` · `tms` · `truckload` · `ltl` · `parcel-audit` · `ocean-freight` · `air-freight` · `edi-210` · `edi-810` · `edi-820` · `e-invoicing` · `zugferd` · `supply-chain` · `logistics` · `open-source`
+
 ## 🤝 How to Contribute
 1. 🍴 Fork the repo.
 2. ✏️ Add/edit entries in `README.md` (follow existing format).
