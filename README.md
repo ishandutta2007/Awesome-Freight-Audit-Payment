@@ -14,26 +14,21 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 ## SaaS/Hosted Platforms
-- **[Cass Information Systems](https://www.cassinfo.com/freight-audit-payment)**
-  Industry-leading freight audit and payment provider processing tens of millions of invoices and tens of billions in spend annually; bank-backed security, global multi-mode coverage, and deep transportation cost analytics.
-- **[Trax Technologies](https://www.traxtech.com)**
-  AI-native global freight audit and spend management platform that audits 100% of invoices across modes, currencies, and regions with normalized data and advanced analytics.
-- **[CT Logistics](https://www.ctlogistics.com)**
-  Long-standing freight bill audit and payment specialist with proprietary FreitRater rating engine, pre- and post-audit services, and web-based reporting tools.
-- **[nVision Global](https://corporate.nvisionglobal.com)**
-  Global freight audit & payment and parcel audit provider using AI/ML for line-item validation, multi-mode processing, and operational business intelligence.
-- **[ControlPay](https://www.controlpay.com)**
-  European-focused managed freight audit solutions offering pre-audit, post-audit, self-billing, rate consultancy, and logistics BI for multinational shippers.
-- **[PayCargo](https://paycargo.com)**
-  Neutral online freight payment network accelerating cargo release through secure digital payments, AP automation, and multi-currency settlement for ocean, air, and logistics providers.
-- **[Audintel](https://audintel.com)**
-  AI-powered transportation spend management platform focused on 100% invoice audit, contract intelligence, recovery, and actionable logistics cost insights.
-- **[RateLinx](https://www.ratelinx.com)**
-  Automated freight audit & pay solution with real-time invoice-to-shipment matching, zero rate tolerance, GL coding, and multi-modal analytics.
-- **[Green Mountain Technology](https://greenmt.wpengine.com)**
-  Parcel- and LTL-focused freight bill audit and pay specialist (FedEx Certified FBAP provider) delivering high-volume net-bill reconciliation and carrier savings recovery.
-- **[Data2Logistics](https://www.data2logistics.com)**
-  Global freight audit and payment services with data normalization, business analytics, secure carrier payments, and multi-currency/multi-language support.
+
+| Platform | Focus | Pricing (starting tier) | Free tier / trial limits |
+| :--- | :--- | :--- | :--- |
+| [**Cass Information Systems**](https://www.cassinfo.com/freight-audit-payment) | Bank-backed freight audit & payment processing tens of millions of invoices and tens of billions in spend annually; global multi-mode coverage | Custom enterprise quote; typically **~1–2% of payment value** or per-invoice/transaction fees (no public rate card) | No free tier or trial offered — enterprise contract only |
+| [**Trax Technologies**](https://www.traxtech.com) | AI-native global freight audit & spend management auditing 100% of invoices across modes, currencies, and regions | Custom enterprise quote; **per-invoice + monthly platform fees** scaling with shipment volume | No free tier or trial offered — enterprise sales process |
+| [**CT Logistics**](https://www.ctlogistics.com) | Freight bill audit & payment with proprietary FreitRater® rating engine, pre- and post-audit services | **Monthly SaaS subscription + one-time rate-entry/auditing purchase fee** (custom quote) | No free tier or trial offered — subscription only |
+| [**nVision Global**](https://corporate.nvisionglobal.com) | Global freight audit & payment and parcel audit using AI/ML line-item validation across ~190 countries | Custom enterprise quote; **per-invoice / per-transaction fees** | No free tier or trial offered — enterprise sales process |
+| [**ControlPay**](https://www.controlpay.com) | European-focused managed freight audit: pre-audit, post-audit, self-billing, rate consultancy, logistics BI | Custom enterprise quote (modular managed FAP, part of Transporeon) | No free tier or trial — live demo available on request |
+| [**PayCargo**](https://paycargo.com) | Neutral online freight payment network accelerating cargo release; AP automation & multi-currency settlement | **$14.95/transaction** (US payer account), **$19.50 Quick Pay**; **$295/year per user profile**; ~**3.8%** credit-card surcharge | No payer free tier (per-transaction fees apply); **vendor accounts free at $0** |
+| [**Audintel**](https://audintel.com) | AI-powered transportation spend management; 100% invoice audit, contract intelligence & recovery | **Contingency model: ~25–50% of recovered savings** (no upfront software cost) | No free tier or trial offered — engagement-based |
+| [**RateLinx**](https://www.ratelinx.com) | Automated freight audit & pay; real-time invoice-to-shipment matching, GL coding, multi-modal analytics | **Fixed monthly subscription + minimal one-time implementation fee** ($0 professional-service fees; custom quote) | No free tier or trial offered — quote-based |
+| [**Green Mountain Technology**](https://greenmt.wpengine.com) | Parcel- and LTL-focused freight bill audit & pay (FedEx-certified FBAP provider), net-bill reconciliation | Custom enterprise contracts — typically serves shippers with **$10M+ annual parcel spend** | No free tier or trial offered — enterprise contract |
+| [**Data2Logistics**](https://www.data2logistics.com) | Global freight audit & payment; data normalization, business analytics, secure carrier payments | Custom enterprise contract; managed-FAP industry benchmark **~$1–5 per invoice** | No free tier or trial offered — enterprise contract |
+
+> **Pricing note:** Enterprise freight-audit-and-payment providers price per invoice/transaction and rarely publish rate cards. Figures above are the most specific published estimates as of August 2026 (sources: PayCargo Help Center, RateLinx pricing page, CT Logistics SaaS page, Gartner Peer Insights, industry FAP benchmarks).
 ## Open-Source GitHub Projects
 - **[Open TMS](https://www.opentms.co.uk/)** / related implementations
   Full open-source Transportation Management System with three-way freight audit, carrier invoice matching, LTL rating, EDI 210/810/820 support, AR/AP lifecycle, and financial reporting.
