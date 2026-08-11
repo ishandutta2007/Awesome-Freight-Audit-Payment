@@ -1,165 +1,219 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" width="1100" height="320" role="img" aria-label="Awesome Freight Audit and Payment — curated SaaS platforms and open-source tools for freight invoice auditing, carrier payment and spend visibility">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Freight-Audit-Payment animated banner</title>
+  <desc id="desc">An animated logistics finance workflow showing freight, invoice auditing, and payment.</desc>
+
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1e3d">
-        <animate attributeName="stop-color" values="#0b1e3d;#14376e;#0b1e3d" dur="14s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="55%" stop-color="#14376e">
-        <animate attributeName="stop-color" values="#14376e;#0e5d8a;#14376e" dur="14s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#0e5d8a">
-        <animate attributeName="stop-color" values="#0e5d8a;#0b1e3d;#0e5d8a" dur="14s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a45"/>
+      <stop offset=".5" stop-color="#083f8f"/>
+      <stop offset="1" stop-color="#087f78"/>
     </linearGradient>
-    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#303642"/>
-      <stop offset="100%" stop-color="#191d26"/>
+    <linearGradient id="freight" x1="0" x2="1">
+      <stop stop-color="#18a8ff"/><stop offset="1" stop-color="#2875ff"/>
     </linearGradient>
-    <linearGradient id="hull" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1c2942"/>
-      <stop offset="100%" stop-color="#101a2e"/>
+    <linearGradient id="audit" x1="0" x2="1">
+      <stop stop-color="#5b4cff"/><stop offset="1" stop-color="#16b8ff"/>
     </linearGradient>
+    <linearGradient id="pay" x1="0" x2="1">
+      <stop stop-color="#00b875"/><stop offset="1" stop-color="#55e36b"/>
+    </linearGradient>
+    <linearGradient id="route" x1="0" x2="1">
+      <stop stop-color="#25bfff"/><stop offset=".55" stop-color="#5a8cff"/><stop offset="1" stop-color="#48ee82"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#fff" stroke-opacity=".055"/>
+    </pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#51e99b"/>
+    </marker>
+
+    <!-- Moving light along route -->
+    <circle id="packet" r="7" fill="#fff" filter="url(#glow)">
+      <animate attributeName="r" values="5;9;5" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
   </defs>
 
-  <!-- Sky background -->
-  <rect width="1100" height="320" fill="url(#sky)"/>
+  <!-- Background -->
+  <rect width="1600" height="700" fill="url(#bg)"/>
+  <rect width="1600" height="700" fill="url(#grid)"/>
+  <circle cx="180" cy="260" r="190" fill="#18a8ff" opacity=".12" filter="url(#soft)"/>
+  <circle cx="1420" cy="390" r="210" fill="#42ed91" opacity=".12" filter="url(#soft)"/>
 
-  <!-- Twinkling stars -->
-  <g fill="#ffffff">
-    <circle cx="90" cy="45" r="2" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="210" cy="80" r="1.5" opacity="0.7">
-      <animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="340" cy="35" r="2.2" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="470" cy="62" r="1.5" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="4.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="760" cy="40" r="2" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="880" cy="70" r="1.6" opacity="0.7">
-      <animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1010" cy="30" r="2.1" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.25;0.9" dur="3.7s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Decorative world/network -->
+  <g fill="none" stroke="#7ddcff" stroke-opacity=".2">
+    <path d="M70 180C280 80 430 110 600 185S930 260 1130 155 1420 80 1540 150"/>
+    <path d="M120 230C310 160 470 190 620 260S940 335 1150 240 1410 190 1510 240"/>
+  </g>
+  <g fill="#7ddcff">
+    <circle cx="150" cy="200" r="4"/><circle cx="370" cy="140" r="4"/>
+    <circle cx="610" cy="190" r="4"/><circle cx="930" cy="250" r="4"/>
+    <circle cx="1190" cy="175" r="4"/><circle cx="1450" cy="145" r="4"/>
   </g>
 
-  <!-- Crescent moon (drawn as an evenodd path so no mask/clipPath is needed) -->
-  <path d="M 1000 32 A 26 26 0 1 0 1000 84 A 26 26 0 1 0 1000 32 Z M 990 28 A 21 21 0 1 0 990 70 A 21 21 0 1 0 990 28 Z" fill-rule="evenodd" fill="#ffe9a8" opacity="0.95">
-    <animate attributeName="opacity" values="0.95;0.75;0.95" dur="6s" repeatCount="indefinite"/>
-  </path>
+  <!-- Header -->
+  <text x="800" y="82" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="55" font-weight="800" fill="#fff" letter-spacing="-1">
+    Freight-<tspan fill="#42c7ff">Audit</tspan>-<tspan fill="#52ee91">Payment</tspan>
+  </text>
+  <text x="800" y="118" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="15" font-weight="700" fill="#d5e9ff" letter-spacing="6">
+    SHIP  •  VERIFY  •  PAY  •  MOVE FORWARD
+  </text>
 
-  <!-- Aircraft flying across the top -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="-180,0;1280,0" dur="26s" repeatCount="indefinite"/>
-    <g transform="translate(0,90)">
-      <path d="M0 0 L34 -8 L44 0 L34 8 Z" fill="#cfe6ff" opacity="0.85"/>
-      <path d="M8 -2 L8 -14 L12 -14 L14 -2 Z" fill="#cfe6ff" opacity="0.85"/>
-      <ellipse cx="0" cy="0" rx="9" ry="3" fill="#a8c8e8" opacity="0.7"/>
+  <!-- Workflow cards -->
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(90 155)">
+      <rect width="390" height="125" rx="25" fill="url(#freight)" stroke="#66d5ff" stroke-width="2"/>
+      <circle cx="65" cy="62" r="35" fill="#fff" opacity=".14"/>
+      <path d="M40 65h52v18H40zM52 52h24v13H52zM92 70h15v13H92z" fill="#fff"/>
+      <circle cx="52" cy="86" r="7" fill="#fff"/><circle cx="96" cy="86" r="7" fill="#fff"/>
+      <text x="125" y="54" font-size="29" font-weight="800" fill="#fff">Freight</text>
+      <text x="125" y="82" font-size="15" fill="#e5f8ff">Shipments delivered.</text>
+    </g>
+
+    <g transform="translate(605 155)">
+      <rect width="390" height="125" rx="25" fill="url(#audit)" stroke="#9f9aff" stroke-width="2"/>
+      <circle cx="65" cy="62" r="35" fill="#fff" opacity=".14"/>
+      <circle cx="61" cy="58" r="19" fill="none" stroke="#fff" stroke-width="6"/>
+      <path d="M75 72l18 18" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+      <text x="125" y="54" font-size="29" font-weight="800" fill="#fff">Audit</text>
+      <text x="125" y="82" font-size="15" fill="#eef0ff">Invoices checked.</text>
+    </g>
+
+    <g transform="translate(1120 155)">
+      <rect width="390" height="125" rx="25" fill="url(#pay)" stroke="#7dff9a" stroke-width="2"/>
+      <circle cx="65" cy="62" r="35" fill="#fff" opacity=".14"/>
+      <rect x="39" y="46" width="52" height="38" rx="7" fill="#fff"/>
+      <path d="M40 58h51" stroke="#1fc879" stroke-width="6"/>
+      <circle cx="78" cy="70" r="5" fill="#1fc879"/>
+      <text x="125" y="54" font-size="29" font-weight="800" fill="#fff">Payment</text>
+      <text x="125" y="82" font-size="15" fill="#eaffee">Approved. Paid.</text>
     </g>
   </g>
 
-  <!-- Ocean band with container ship -->
-  <rect x="0" y="188" width="1100" height="62" fill="#0d2c4f" opacity="0.85"/>
-  <g transform="translate(130,196)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" values="0 180 34; -2 180 34; 0 180 34; 2 180 34; 0 180 34" dur="9s" repeatCount="indefinite"/>
-      <!-- Hull -->
-      <path d="M60 34 L300 34 L268 62 L96 62 Z" fill="url(#hull)"/>
-      <path d="M60 34 L300 34 L290 40 L74 40 Z" fill="#243a5e"/>
-      <!-- Containers -->
-      <rect x="96" y="12" width="38" height="22" fill="#e2574c"/>
-      <rect x="134" y="12" width="38" height="22" fill="#f0c75e"/>
-      <rect x="172" y="12" width="38" height="22" fill="#4ca3dd"/>
-      <rect x="210" y="12" width="38" height="22" fill="#57b894"/>
-      <rect x="248" y="12" width="38" height="22" fill="#e2574c"/>
-      <!-- Bridge -->
-      <rect x="272" y="14" width="24" height="20" fill="#f0f4f8"/>
-      <!-- Funnel -->
-      <rect x="296" y="2" width="12" height="18" fill="#1b2a45"/>
-    </g>
-  </g>
-
-  <!-- Skyline silhouette -->
-  <g fill="#0e1526">
-    <rect x="0" y="240" width="1100" height="12"/>
-    <rect x="60" y="212" width="34" height="28"/>
-    <rect x="120" y="224" width="26" height="16"/>
-    <rect x="480" y="218" width="40" height="22"/>
-    <rect x="540" y="230" width="24" height="10"/>
-    <rect x="760" y="210" width="30" height="30"/>
-    <rect x="820" y="226" width="22" height="14"/>
-    <rect x="900" y="216" width="36" height="24"/>
-  </g>
-
-  <!-- Road -->
-  <rect x="0" y="250" width="1100" height="70" fill="url(#road)"/>
-  <g stroke="#f5d76e" stroke-width="4" stroke-dasharray="30 22" opacity="0.75">
-    <line x1="0" y1="285" x2="1100" y2="285">
-      <animate attributeName="x1" values="0;-52" dur="1.4s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1100;1048" dur="1.4s" repeatCount="indefinite"/>
-    </line>
-  </g>
-
-  <!-- Truck driving along the road -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="-360,6;1230,6" dur="17s" repeatCount="indefinite"/>
-    <!-- Cargo trailer -->
-    <g transform="translate(0,0)">
-      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="0.9s" repeatCount="indefinite"/>
-      <rect x="0" y="-44" width="150" height="52" rx="6" fill="#3f88c5"/>
-      <rect x="0" y="-44" width="150" height="52" rx="6" fill="none" stroke="#7ab8e8" stroke-width="2"/>
-      <rect x="12" y="-36" width="36" height="36" rx="3" fill="#f7d154" opacity="0.92"/>
-      <rect x="58" y="-36" width="36" height="36" rx="3" fill="#e86a5e" opacity="0.92"/>
-      <rect x="104" y="-36" width="36" height="36" rx="3" fill="#5cb98c" opacity="0.92"/>
-      <g fill="#ffffff" opacity="0.85">
-        <circle cx="30" cy="-18" r="8"/>
-        <circle cx="76" cy="-18" r="8"/>
-        <circle cx="122" cy="-18" r="8"/>
-      </g>
-      <!-- Trailer wheels -->
-      <circle cx="26" cy="12" r="11" fill="#171a21" stroke="#0a0c10" stroke-width="3"/>
-      <circle cx="124" cy="12" r="11" fill="#171a21" stroke="#0a0c10" stroke-width="3"/>
-    </g>
-    <!-- Cab -->
-    <g transform="translate(156,-10)">
-      <rect x="0" y="-34" width="52" height="46" rx="6" fill="#e8503f"/>
-      <rect x="34" y="-34" width="18" height="26" rx="4" fill="#f2f6fa"/>
-      <path d="M0 -34 L10 -44 L40 -44 L52 -34 Z" fill="#c23a2c"/>
-      <!-- Headlight -->
-      <circle cx="52" cy="-8" r="4" fill="#ffe9a8">
-        <animate attributeName="opacity" values="1;0.55;1" dur="1.1s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-    <!-- Cab wheels -->
-    <g transform="translate(156,-10)">
-      <circle cx="14" cy="12" r="11" fill="#171a21" stroke="#0a0c10" stroke-width="3"/>
-      <circle cx="46" cy="12" r="11" fill="#171a21" stroke="#0a0c10" stroke-width="3"/>
-    </g>
-  </g>
-
-  <!-- Title -->
-  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="550" y="96" text-anchor="middle" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="1">
-      Awesome Freight Audit &amp; Payment
-    </text>
-    <text x="550" y="132" text-anchor="middle" font-size="21" font-weight="500" fill="#bfdcff" letter-spacing="0.5">
-      Freight invoice auditing &middot; carrier payment &middot; spend visibility &middot; transportation cost control
-    </text>
-    <text x="550" y="162" text-anchor="middle" font-size="15" font-weight="400" fill="#8fb6e0">
-      Curated SaaS platforms &amp; open-source projects &mdash; truckload &middot; LTL &middot; parcel &middot; ocean &middot; air &middot; rail
-    </text>
-  </g>
-
-  <!-- Pulsing star beside the title -->
-  <g transform="translate(78,70)">
-    <path d="M0 -14 L4 -4 L14 -4 L6 3 L9 13 L0 7 L-9 13 L-6 3 L-14 -4 L-4 -4 Z" fill="#ffd166">
-      <animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="2.2s" repeatCount="indefinite"/>
+  <!-- Animated workflow arrows -->
+  <g fill="none" stroke="url(#route)" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M480 217C535 217 550 217 605 217">
+      <animate attributeName="stroke-dasharray" values="1 120;120 1" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M995 217C1050 217 1065 217 1120 217">
+      <animate attributeName="stroke-dasharray" values="1 120;120 1" dur="1.5s" repeatCount="indefinite"/>
     </path>
   </g>
+
+  <!-- Main animated route -->
+  <path d="M80 540 C300 380 430 590 620 455 S930 350 1110 500 S1360 570 1510 420"
+        fill="none" stroke="#3ee8a0" stroke-opacity=".18" stroke-width="25" filter="url(#glow)"/>
+  <path id="mainRoute"
+        d="M80 540 C300 380 430 590 620 455 S930 350 1110 500 S1360 570 1510 420"
+        fill="none" stroke="url(#route)" stroke-width="6" stroke-linecap="round"
+        stroke-dasharray="18 16">
+    <animate attributeName="stroke-dashoffset" from="0" to="-68" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <use href="#packet">
+    <animateMotion dur="5.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#mainRoute"/>
+    </animateMotion>
+  </use>
+
+  <!-- Freight visual -->
+  <g transform="translate(110 445)">
+    <rect x="0" y="34" width="175" height="62" rx="7" fill="#1475d1"/>
+    <rect x="14" y="44" width="70" height="43" fill="#f28b24"/>
+    <rect x="91" y="44" width="70" height="43" fill="#24b6e9"/>
+    <path d="M175 52h43l28 30v14h-71z" fill="#1d9bff"/>
+    <circle cx="47" cy="103" r="17" fill="#0a214b"/><circle cx="47" cy="103" r="8" fill="#a9d6ee"/>
+    <circle cx="206" cy="103" r="17" fill="#0a214b"/><circle cx="206" cy="103" r="8" fill="#a9d6ee"/>
+    <animateTransform attributeName="transform" type="translate" values="110 445;125 445;110 445" dur="2.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Invoice / audit panel -->
+  <g transform="translate(545 335)">
+    <rect width="390" height="190" rx="22" fill="#071d55" fill-opacity=".88" stroke="#42c8ff" stroke-width="2"/>
+    <text x="28" y="38" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">AI AUDIT ENGINE</text>
+    <text x="28" y="61" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#9cc9ed">Invoice • Rate • Accessorials • Fuel • Tax</text>
+
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#dff4ff">
+      <g transform="translate(30 82)">
+        <circle cx="8" cy="8" r="8" fill="#43df82"/>
+        <path d="M4 8l3 3 6-7" fill="none" stroke="#073a38" stroke-width="2"/>
+        <text x="28" y="13">Rate match</text>
+      </g>
+      <g transform="translate(30 112)">
+        <circle cx="8" cy="8" r="8" fill="#43df82"/>
+        <path d="M4 8l3 3 6-7" fill="none" stroke="#073a38" stroke-width="2"/>
+        <text x="28" y="13">Accessorials</text>
+      </g>
+      <g transform="translate(30 142)">
+        <circle cx="8" cy="8" r="8" fill="#43df82"/>
+        <path d="M4 8l3 3 6-7" fill="none" stroke="#073a38" stroke-width="2"/>
+        <text x="28" y="13">Fuel surcharge</text>
+      </g>
+      <g transform="translate(220 82)">
+        <circle cx="8" cy="8" r="8" fill="#43df82"/>
+        <path d="M4 8l3 3 6-7" fill="none" stroke="#073a38" stroke-width="2"/>
+        <text x="28" y="13">Detention</text>
+      </g>
+      <g transform="translate(220 112)">
+        <circle cx="8" cy="8" r="8" fill="#43df82"/>
+        <path d="M4 8l3 3 6-7" fill="none" stroke="#073a38" stroke-width="2"/>
+        <text x="28" y="13">Taxes &amp; fees</text>
+      </g>
+    </g>
+
+    <!-- Animated audit scan -->
+    <rect x="20" y="72" width="350" height="2" fill="#55dfff" opacity=".8">
+      <animate attributeName="y" values="72;166;72" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Payment confirmation -->
+  <g transform="translate(1130 340)">
+    <rect width="280" height="180" rx="25" fill="#effff7" stroke="#50ee91" stroke-width="4"/>
+    <circle cx="140" cy="65" r="34" fill="#29d77d">
+      <path d="M121 65l12 12 28-32" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <animate attributeName="r" values="30;36;30" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="140" y="122" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="20" font-weight="900" fill="#073d35">PAYMENT COMPLETED</text>
+    <text x="140" y="148" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="12" fill="#4c7771">Verified • Approved • Settled</text>
+  </g>
+
+  <!-- Flowing payment particles -->
+  <g fill="#ffd34e" filter="url(#glow)">
+    <circle r="6">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M1040 510 C1130 520 1200 470 1280 455"/>
+    </circle>
+    <circle r="4">
+      <animateMotion dur="2.7s" begin=".7s" repeatCount="indefinite" path="M1020 485 C1130 500 1190 450 1320 435"/>
+    </circle>
+    <circle r="5">
+      <animateMotion dur="3.8s" begin="1.1s" repeatCount="indefinite" path="M1040 530 C1160 550 1270 500 1380 450"/>
+    </circle>
+  </g>
+
+  <!-- Footer metrics -->
+  <g transform="translate(0 605)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="55" y="0" width="1490" height="67" rx="18" fill="#04183f" fill-opacity=".65" stroke="#5dbdff" stroke-opacity=".22"/>
+    <g fill="#dff4ff" font-size="14" font-weight="700">
+      <text x="115" y="40">⚡ Faster Turnaround</text>
+      <text x="410" y="40">✓ Higher Accuracy</text>
+      <text x="710" y="40">↓ Lower Costs</text>
+      <text x="990" y="40">↗ Clean Cash Flow</text>
+      <text x="1290" y="40">◎ Stronger Supply Chains</text>
+    </g>
+  </g>
+
+  <!-- Subtle title pulse -->
+  <text x="800" y="82" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="55" font-weight="800" fill="none" stroke="#fff" stroke-opacity=".08">
+    Freight-Audit-Payment
+    <animate attributeName="stroke-opacity" values=".03;.16;.03" dur="3s" repeatCount="indefinite"/>
+  </text>
 </svg>
