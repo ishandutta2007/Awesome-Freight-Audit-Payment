@@ -23,10 +23,12 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 **Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom rate engines, three-way matching, AI-assisted audit, e-invoicing, and open logistics data processing — ideal for shippers, 3PLs, freight brokers, researchers, and developers building transparent transportation finance solutions.
 🙌 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 ## 📋 Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+- [🏢 SaaS/Hosted Platforms](#🏢-saashosted-platforms)
+- [🧑‍💻 Open-Source GitHub Projects](#🧑‍💻-open-source-github-projects)
+- [🔎 Related Topics](#🔎-related-topics)
+- [🤝 How to Contribute](#🤝-how-to-contribute)
+- [⚠️ Disclaimer](#⚠️-disclaimer)
+- [⭐ Star History](#star-history)
 ## 🏢 SaaS/Hosted Platforms
 
 | 🏢 Platform | 🎯 Focus | 📈 Company size (revenue / valuation) | 💰 Pricing (starting tier) | 🆓 Free tier / trial limits |
