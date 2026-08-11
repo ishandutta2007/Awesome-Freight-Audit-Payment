@@ -19,6 +19,10 @@
       <stop offset="0%" stop-color="#1c2942"/>
       <stop offset="100%" stop-color="#101a2e"/>
     </linearGradient>
+    <mask id="crescentMask">
+      <rect x="0" y="0" width="1100" height="320" fill="#ffffff"/>
+      <circle cx="991" cy="51" r="24" fill="#000000"/>
+    </mask>
   </defs>
 
   <!-- Sky background -->
@@ -49,11 +53,10 @@
     </circle>
   </g>
 
-  <!-- Moon -->
-  <circle cx="1000" cy="58" r="26" fill="#ffe9a8" opacity="0.95">
+  <!-- Moon (crescent revealed via mask so the animated sky shows through) -->
+  <circle cx="1000" cy="58" r="26" fill="#ffe9a8" opacity="0.95" mask="url(#crescentMask)">
     <animate attributeName="r" values="26;27.5;26" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="991" cy="51" r="24" fill="#14376e" opacity="0.9"/>
 
   <!-- Aircraft flying across the top -->
   <g>
@@ -108,7 +111,7 @@
   </g>
 
   <!-- Truck driving along the road -->
-  <g transform="translate(0,6)">
+  <g>
     <animateTransform attributeName="transform" type="translate" values="-360,6;1230,6" dur="17s" repeatCount="indefinite"/>
     <!-- Cargo trailer -->
     <g transform="translate(0,0)">
