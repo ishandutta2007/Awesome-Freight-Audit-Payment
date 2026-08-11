@@ -1,5 +1,9 @@
 # Awesome-Freight-Audit-Payment
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Freight Audit & Payment — curated SaaS platforms and open-source tools for freight invoice auditing, carrier payment, and spend visibility" width="100%" />
+</p>
+
 ## Top Freight Audit & Payment Tools Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Freight Invoice Auditing, Carrier Payment, Spend Visibility & Transportation Cost Control*
