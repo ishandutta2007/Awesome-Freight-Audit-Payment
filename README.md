@@ -1,187 +1,80 @@
 # Awesome-Freight-Audit-Payment
 
-# Awesome-Freight-Audit-Payment
-
-## Top Expense Management Platforms
-
-
-
-A curated list of leading expense management and spend management platforms for receipt capture, expense reporting, corporate cards, reimbursements, policy enforcement, approvals, and accounting integrations.  
-
-**Primary focus: open-source software.**
-
-
-
-Commercial / hosted platforms are listed separately for completeness. Open-source alternatives and community tools are emphasized throughout.
-
-
-
+## Top Freight Audit & Payment Tools Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Freight Invoice Auditing, Carrier Payment, Spend Visibility & Transportation Cost Control*
+**Last updated: August 2026**
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Freight Audit & Payment**. These tools audit carrier invoices against contracted rates, detect overcharges and duplicates, automate payments, allocate costs, and deliver actionable spend intelligence across all modes (truckload, LTL, parcel, ocean, air, rail).
+**Examples** include Cass Information Systems, Trax Technologies, CT Logistics, nVision Global, ControlPay, PayCargo, Audintel, RateLinx, Green Mountain Technology, Data2Logistics (the category leaders).
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom rate engines, three-way matching, AI-assisted audit, e-invoicing, and open logistics data processing — ideal for shippers, 3PLs, freight brokers, researchers, and developers building transparent transportation finance solutions.
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-products)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+## SaaS/Hosted Platforms
+- **[Cass Information Systems](https://www.cassinfo.com/freight-audit-payment)**
+  Industry-leading freight audit and payment provider processing tens of millions of invoices and tens of billions in spend annually; bank-backed security, global multi-mode coverage, and deep transportation cost analytics.
+- **[Trax Technologies](https://www.traxtech.com)**
+  AI-native global freight audit and spend management platform that audits 100% of invoices across modes, currencies, and regions with normalized data and advanced analytics.
+- **[CT Logistics](https://www.ctlogistics.com)**
+  Long-standing freight bill audit and payment specialist with proprietary FreitRater rating engine, pre- and post-audit services, and web-based reporting tools.
+- **[nVision Global](https://corporate.nvisionglobal.com)**
+  Global freight audit & payment and parcel audit provider using AI/ML for line-item validation, multi-mode processing, and operational business intelligence.
+- **[ControlPay](https://www.controlpay.com)**
+  European-focused managed freight audit solutions offering pre-audit, post-audit, self-billing, rate consultancy, and logistics BI for multinational shippers.
+- **[PayCargo](https://paycargo.com)**
+  Neutral online freight payment network accelerating cargo release through secure digital payments, AP automation, and multi-currency settlement for ocean, air, and logistics providers.
+- **[Audintel](https://audintel.com)**
+  AI-powered transportation spend management platform focused on 100% invoice audit, contract intelligence, recovery, and actionable logistics cost insights.
+- **[RateLinx](https://www.ratelinx.com)**
+  Automated freight audit & pay solution with real-time invoice-to-shipment matching, zero rate tolerance, GL coding, and multi-modal analytics.
+- **[Green Mountain Technology](https://greenmt.wpengine.com)**
+  Parcel- and LTL-focused freight bill audit and pay specialist (FedEx Certified FBAP provider) delivering high-volume net-bill reconciliation and carrier savings recovery.
+- **[Data2Logistics](https://www.data2logistics.com)**
+  Global freight audit and payment services with data normalization, business analytics, secure carrier payments, and multi-currency/multi-language support.
+## Open-Source GitHub Projects
+- **[Open TMS](https://www.opentms.co.uk/)** / related implementations
+  Full open-source Transportation Management System with three-way freight audit, carrier invoice matching, LTL rating, EDI 210/810/820 support, AR/AP lifecycle, and financial reporting.
+- **[FreightAudit (derekwden-droid)](https://github.com/derekwden-droid/freight_audit)**
+  AI-powered accessorial charge detection for freight brokers; OCR + LLM analysis of delivery receipts to catch unauthorized lumper, detention, and other overcharges before payment.
+- **[LoadPartner TMS](https://github.com/loadpartner/tms)**
+  Open-source TMS built for freight brokers (Laravel + React) covering load management, dispatch, and operational workflows that integrate with audit and payment processes.
+- **[Warp Tools](https://github.com/wearewarp/warp-tools)**
+  Suite of free, self-hostable logistics systems including invoice & payment tracker, carrier management, rate management, and mini-TMS modules designed to replace spreadsheets.
+- **[Mustangproject](https://github.com/ZUGFeRD/mustangproject)**
+  Mature open-source Java library and toolkit for reading, writing, validating, and converting structured electronic invoices (ZUGFeRD/Factur-X, XRechnung, CII, UBL) — essential for automated freight e-invoice processing.
+- **[S2P AI Audit](https://github.com/aswinakofficial/s2p-ai-audit)**
+  Production-grade AI-powered three-way match engine (invoice vs PO vs goods receipt) using LLM document understanding combined with deterministic financial validation.
+- **[Operational Cost Audit](https://github.com/ajmarsillo/operational-cost-audit)**
+  SQL + Python analytics platform for detecting operational cost leakage, overbilling against contracts, and post-termination charges in vendor invoice data.
+- **[OpenHaul](https://github.com/johnmonarch/OpenHaul)**
+  Local-first open-source carrier verification and risk-scoring tool for brokers and shippers using public FMCSA data and packet checks.
+- **[Vendor Invoice Intelligence System](https://github.com/manish930s/Vendor-Invoice-Intelligence-System)**
+  ML-driven system that predicts expected freight costs and flags high-risk anomalous invoices for manual review.
+- **[SmartAudit-LLM](https://github.com/Sourish-Kanna/SmartAudit-LLM)**
+  Autonomous LLM-based auditing platform for financial documents (invoices in CSV/PDF) performing rule-based and reasoning validation.
+- **[FreightAccrue](https://github.com/alexxxram25/freightaccrue)**
+  Controls-first, agentic freight accrual engine with rate-card pricing, segregation-of-duties workflow, and reconciliation against later carrier invoices.
+### Additional Strong Open-Source Options
+- **Odoo Community TMS / Freight modules** — extensible ERP-based transport management with invoicing, vendor bills, and cost tracking (multiple community and commercial modules available).
+- **EDI libraries and parsers** for 210 (Freight Invoice), 810, and 820 transactions commonly used in automated audit pipelines.
+- **Rate engine and LTL rating open projects** for building custom contract compliance checks.
+- **Invoice OCR + LLM pipelines** (many community notebooks and small repos) for extracting line-item charges from carrier PDFs.
+- **InfluxDB + Grafana + Node-RED** stacks frequently combined with TMS data for spend dashboards and anomaly detection.
+**Frameworks for building custom systems**: Combine **Open TMS / LoadPartner TMS**, **Mustangproject** (e-invoicing), **FreightAudit-style AI detectors**, **three-way match engines**, and **InfluxDB + Grafana** (or similar) with local LLMs for intelligent, self-hosted freight audit and payment platforms.
+## How to Contribute
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+Star the repo if you find it useful!
+## Disclaimer
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Freight audit and payment tools must comply with applicable financial, tax, and transportation regulations.
+- Self-hosted open-source solutions require proper security, audit trails, data protection, and reliability controls suitable for financial processes.
 ---
+**Made for shippers, freight brokers, 3PLs, finance teams, and logistics technologists.**
+Let's make freight audit and payment more open, accurate, and cost-effective.
 
-
-
-## SaaS / Hosted Platforms
-
-
-
-| Platform | Description | Key Focus |
-
-|----------|-------------|-----------|
-
-| **[Expensify](https://www.expensify.com/)** | All-in-one expense management with AI-powered receipt scanning (SmartScan), automated reports, reimbursements, corporate cards (BYOC or Expensify Card), travel, and deep accounting integrations. | Easy expense reporting + cards for teams of all sizes |
-
-| **[Ramp](https://ramp.com/)** | Modern spend management platform with corporate cards, real-time controls, automated expense workflows, policy enforcement, bill pay, and strong savings/insights tools. | All-in-one spend control + automation |
-
-| **[Brex](https://www.brex.com/)** | Spend management with smart corporate cards, AI-assisted expense reviews, automated receipt matching, live budgets, policy controls, and global capabilities. | Startup-to-enterprise spend + cards |
-
-| **[Zoho Expense](https://www.zoho.com/expense/)** | Affordable online expense reporting with receipt scanning, mileage tracking, multi-level approvals, travel integration, fraud detection, and tight Zoho ecosystem integration. | Cost-effective expense + travel for SMBs |
-
-| **[SAP Concur](https://www.concur.com/)** | Enterprise-grade travel and expense management with AI (ExpenseIt, Joule), automated receipt capture, policy compliance, and extensive ERP/HR integrations. | Large-enterprise T&E automation |
-
-| **[Rydoo](https://www.rydoo.com/)** | AI-powered expense automation with high-accuracy receipt scanning, multi-country compliance, per diems, mileage, Smart Audit, and flexible approval flows. | International expense compliance |
-
-| **[Pleo](https://www.pleo.io/)** | Smart company cards + automated expense management. Real-time receipt capture, spending limits, reimbursements, and direct accounting sync (popular in Europe). | Card-first spend for SMBs & mid-market |
-
-| **[Emburse](https://www.emburse.com/)** | Unified spend platform covering expenses, virtual/corporate cards, reimbursements, and AP. Real-time visibility, policy controls, and strong automation. | Real-time expense + spend management |
-
-| **[Moss](https://www.getmoss.com/)** | European spend platform with physical/virtual cards, real-time controls, automatic receipt matching, reimbursements, and accounting-ready data. | Full spend control + cards (EU focus) |
-
-| **[Navan](https://navan.com/)** (formerly TripActions) | Integrated travel + expense management. Automated expense capture at booking/purchase, policy controls, reimbursements, and real-time visibility. | Travel + expense in one platform |
-
-| **[Mesh Payments](https://meshpayments.com/)** | Global travel & expense with cards, AI receipt processing, automatic GL coding, smart approvals, and multi-entity support for enterprises. | Global T&E + cards |
-
-| **[Soldo](https://www.soldo.com/)** | Prepaid cards and expense management with real-time tracking, policy allowances, receipt handling, approvals, and multi-user controls. | Prepaid cards + expense tracking |
-
-| **[Navan Expense](https://navan.com/)** | Navan’s dedicated expense management capabilities focused on automated reporting, categorization, and policy enforcement alongside travel. | Automated expense within Navan ecosystem |
-
-
-
----
-
-
-
-## Open-Source Softwares
-
-
-
-Fully featured open-source expense management platforms comparable to commercial SaaS (with corporate cards, real-time policy, OCR, multi-entity, etc.) are relatively limited. Strong options exist for self-hosted expense tracking, ERP-integrated expenses, personal/team finance, and modular extensions.
-
-
-
-### Core Frameworks & Expense / Finance Platforms
-
-
-
-| Project | Description | License | Notes |
-
-|---------|-------------|---------|-------|
-
-| **[Odoo Community](https://www.odoo.com/)** + Expenses app | Full open-source ERP with a dedicated Expenses module: receipt OCR/scanning, mobile submission, multi-level approvals, reimbursements, categories, and tight accounting integration. Extensible via OCA modules. | LGPLv3 | Best open-source business expense solution when paired with accounting |
-
-| **[ERPNext](https://github.com/frappe/erpnext)** | Open-source ERP with expense claims, employee advances, accounting integration, multi-company support, and workflow approvals. Highly customizable. | GPL-3.0 | Strong alternative for mid-size organizations |
-
-| **[Firefly III](https://github.com/firefly-iii/firefly-iii)** | Self-hosted personal (and multi-user capable) finance manager. Budgets, categories, tags, recurring transactions, rules, reporting, and import tools. Excellent privacy-focused tracking. | AGPL-3.0 | Leading self-hosted personal/team finance tracker |
-
-| **[Expense.fyi](https://github.com/gokulkrishh/expense.fyi)** | Open-source expense tracker for incomes, expenses, investments, and subscriptions with categorization and on-the-go logging. | AGPL-3.0 | Modern web-based expense tracker |
-
-| **[BetterTracker](https://github.com/panteLx/BetterTracker)** | Self-hosted multi-user expense and income tracker with custom categories, recurring schedules, statistics, public sharing, and admin panel. | MIT | Multi-user self-hosted tracker |
-
-| **[ExpenseOwl](https://github.com/tanq16/expenseowl)** | Simple self-hosted expense tracker focused on manual recording, recurring transactions, categories, dashboard, and CSV import/export. | MIT | Lightweight self-hosted option |
-
-
-
-### Specialized Libraries & Related Tools
-
-
-
-| Project | Description | Focus Area |
-
-|---------|-------------|---------|
-
-| **[OCA hr-expense modules](https://github.com/OCA/hr-expense)** | Community modules extending Odoo Expenses (advances, petty cash, tier validation, invoices, sequences, etc.). | Odoo expense enhancements |
-
-| **[DollarDollar / FinPal-style tools](https://github.com/harung1993/dollardollar)** | Self-hosted money management and expense-splitting services with multi-currency, budgets, and collaborative features. | Expense splitting & tracking |
-
-| **General open-source ERP/accounting** | Dolibarr, Tryton, Akaunting, and similar systems often include expense or claims modules that can be extended. | ERP-integrated expenses |
-
-| **Receipt OCR / document tools** | Tesseract, paperless-ngx, or custom pipelines can be combined with trackers for receipt processing. | Document capture |
-
-| **Budgeting & personal finance** | Actual Budget, Ghostfolio, and other open-source finance apps can support team expense tracking with customization. | Broader finance tracking |
-
-
-
-### Additional Notable Open-Source Tools
-
-
-
-- **Self-hosted finance trackers** — Multiple community projects for personal or small-team expense logging with categories, tags, and reports.
-
-- **ERPNext / Odoo customizations** — Common route for organizations needing policy workflows, multi-level approvals, and GL integration without SaaS lock-in.
-
-- **API-first or headless approaches** — Build custom expense frontends on top of open accounting backends or simple databases.
-
-- **Mileage & per-diem calculators** — Various open libraries and scripts that can be integrated into custom solutions.
-
-- **Import/export & banking sync** — Tools that pull transactions from banks or CSV for reconciliation in open systems.
-
-
-
-**Note:** Commercial platforms dominate in areas such as corporate card issuance, real-time merchant-level controls, advanced AI receipt matching, multi-country tax/VAT compliance, and seamless ERP sync at scale. Open-source solutions excel at self-hosted privacy, full data ownership, ERP integration (especially Odoo/ERPNext), and customizable workflows for organizations willing to self-host or extend existing systems.
-
-
-
----
-
-
-
-## Quick Start Recommendations
-
-
-
-| Goal | Recommended Starting Point |
-
-|------|---------------------------|
-
-| Full open-source business expenses + accounting | **Odoo Community Expenses** or **ERPNext** |
-
-| Self-hosted personal or small-team tracking | **Firefly III** |
-
-| Lightweight modern web tracker | **Expense.fyi** or **BetterTracker** |
-
-| Simple self-hosted expense logging | **ExpenseOwl** |
-
-| Enterprise SaaS with cards & automation | **Ramp**, **Brex**, or **Expensify** |
-
-| Global / multi-country compliance | **Rydoo**, **Mesh Payments**, or **SAP Concur** |
-
-| European card-first spend | **Pleo** or **Moss** |
-
-| Travel + expense combined | **Navan** or **SAP Concur** |
-
-| Affordable SMB expense reporting | **Zoho Expense** |
-
-| Real-time unified spend platform | **Emburse** or **Ramp** |
-
-
-
----
-
-
-
-## Contributing
-
-
-
-Contributions, corrections, and new open-source projects are welcome.  
-
-Please open an issue or pull request.
-
-
-
----
-
-
-
-**Last updated:** August 2026  
-
-Emphasizing open-source tools while documenting the major commercial platforms for context. Mature open-source options center on ERP modules (Odoo, ERPNext) and self-hosted trackers (Firefly III and others); full corporate-card + real-time policy platforms remain predominantly commercial.
