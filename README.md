@@ -27,10 +27,13 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - [🧑‍💻 Open-Source GitHub Projects](#open-source-projects)
 - [🔎 Related Topics](#related-topics)
 - [🤝 How to Contribute](#how-to-contribute)
+- [💖 Support](#support)
 - [⚠️ Disclaimer](#disclaimer)
 - [⭐ Star History](#star-history)
 <a name="saas-platforms"></a>
 ## 🏢 SaaS/Hosted Platforms
+
+> 📊 **Market Overview:** The global Freight Audit & Payment (FAP) market is estimated at **$12.5B – $14.2B**, projected to grow at a CAGR of ~9.5–11% toward **$22B+ by 2030**. The sector is **moderately to highly fragmented**—while legacy bank-backed powerhouses (e.g., Cass Information Systems) and payment networks (PayCargo) hold significant market share, regional logistics nuances, mode-specific audit rules (parcel vs. ocean/air), and emerging AI-native startups prevent a single "winner-take-all" consolidation.
 
 | 🏢 Platform | 🎯 Focus | 📈 Company size (revenue / valuation) | 💰 Pricing (starting tier) | 🆓 Free tier / trial limits |
 | :--- | :--- | :--- | :--- | :--- |
@@ -107,6 +110,17 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 3. 🏷️ Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
 4. 🚀 Submit PR with a short explanation.
 ⭐ Star the repo if you find it useful!
+
+<a name="support"></a>
+## 💖 Support
+
+Thank you for exploring and using **Awesome-Freight-Audit-Payment**! If this repository has helped you discover logistics platforms, streamline carrier invoice auditing, or build open-source transport finance tools, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it.
+- 🍴 **Fork** and contribute your favorite open-source tools or SaaS platforms.
+- 📢 **Share** it with your network, team, or logistics community.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to buy me a coffee or support ongoing maintenance, check out the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
 <a name="disclaimer"></a>
 ## ⚠️ Disclaimer
 - This is a **community-curated** list — not exhaustive and not an endorsement.
