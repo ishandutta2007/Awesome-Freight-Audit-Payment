@@ -18,9 +18,8 @@
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Freight Invoice Auditing, Carrier Payment, Spend Visibility & Transportation Cost Control*
 🗓️ **Last updated: August 2026**
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Freight Audit & Payment (FAP)**. These tools audit carrier invoices against contracted rates, detect overcharges and duplicates, automate payments, allocate costs, and deliver actionable transportation spend intelligence across all modes (truckload, LTL, parcel, ocean, air, rail). Whether you need freight invoice auditing, carrier payment automation, rate compliance, overcharge recovery, or full transportation spend management, this list is a practical starting point for shippers, freight brokers, 3PLs, finance teams, and logistics technologists.
-📌 **Examples** include Cass Information Systems, Trax Technologies, CT Logistics, nVision Global, ControlPay, PayCargo, Audintel, RateLinx, Green Mountain Technology, Data2Logistics (the category leaders).
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom rate engines, three-way matching, AI-assisted audit, e-invoicing, and open logistics data processing — ideal for shippers, 3PLs, freight brokers, researchers, and developers building transparent transportation finance solutions.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Freight Audit & Payment (FAP)**. 
+
 🙌 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 ## 📋 Table of Contents
 - [🏢 SaaS/Hosted Platforms](#saas-platforms)
