@@ -48,7 +48,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 > **Notes:** Rows are sorted by company size (descending), using the midpoint of each published estimate (valuation or acquisition value where available, otherwise funding or estimated revenue; `~` = estimate). Enterprise FAP providers price per invoice/transaction and rarely publish rate cards; figures above are the most specific published estimates as of August 2026 (sources: SEC filings, press releases, PayCargo Help Center, RateLinx pricing page, CT Logistics SaaS page, ZoomInfo/Growjo/Latka/Owler, industry FAP benchmarks).
 <a name="open-source-projects"></a>
 ## 🧑‍💻 Open-Source GitHub Projects
-⭐ *Sorted by GitHub stars (descending) — click a star badge to open that repo's stargazers page.*
+⭐ *Sorted by GitHub_Stars (descending) — click a Stars_Badge to open that repo's stargazers page.*
 
 - [**📄 Mustangproject**](https://github.com/ZUGFeRD/mustangproject) [![Stars](https://img.shields.io/github/stars/ZUGFeRD/mustangproject?style=social&label=Stars&color=white)](https://github.com/ZUGFeRD/mustangproject/stargazers)
   Mature open-source Java library and toolkit for reading, writing, validating, and converting structured electronic invoices (ZUGFeRD/Factur-X, XRechnung, CII, UBL) — essential for automated freight e-invoice processing.
